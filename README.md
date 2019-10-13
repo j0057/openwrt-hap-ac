@@ -27,6 +27,7 @@ Then prepare for a netboot:
 - Run a DHCP/TFTP server. The script `netboot.sh` in this repo should do the
   trick. You want the `*-initramfs-kernel.bin` for the netboot.
 - While pressing the reset button, power up the router. After aboot 15 seconds, it should be booted.
+- *Switch the UTP cable to a LAN port such as port 2.*
 - Use the IP that dnsmasq gave to the router to navigate to the web UI.
 - Under System > Backup / Flash Firmware, upload the `*-squashfs-sysupgrade.bin` file.
   (this might be a good time to have been paranoid about checking the `sha256sum`s).
