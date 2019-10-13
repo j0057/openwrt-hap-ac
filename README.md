@@ -31,6 +31,7 @@ Then prepare for a netboot:
 - Use the IP that dnsmasq gave to the router to navigate to the web UI.
 - Under System > Backup / Flash Firmware, upload the `*-squashfs-sysupgrade.bin` file.
   (This might be a good time to have been paranoid about checking the `sha256sum`s).
+- The router will come up at [192.168.1.1](http://192.168.1.1/).
 
 [mikrotik-hap-ac-lite]: https://mikrotik.com/product/RB952Ui-5ac2nD
 [openwrt-rb-common-procedures]: https://openwrt.org/toh/mikrotik/common
