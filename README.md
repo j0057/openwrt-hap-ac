@@ -1,6 +1,6 @@
-# Fun with Mikrotik HAP AC Lite
+# Fun with Mikrotik hAP AC
 
-Better known as the [Mikrotik RB952Ui-5ac2nD][mikrotik-hap-ac-lite].
+Better known as the [MikroTik RouterBOARD 962UiGS-5HacT2HnT][mikrotik-hap-ac].
 
 ## Basic procedure for installing OpenWRT
 
@@ -8,7 +8,7 @@ OpenWRT has documented some [common procedures][openwrt-rb-common-procedures]
 for Mikrotik RouterBoard products. Basically, first you netboot an image over
 TFTP and then you flash an image through the web interface or through SCP/SSH.
 
-OpenWRT has documented the [hardware data][openwrt-hap-ac-lite-hwdata].
+OpenWRT has documented the [hardware data][openwrt-hap-ac-hwdata].
 
 Download URLs: [OpenWRT 18.06.4][openwrt-download-18-06-4].
 
@@ -33,7 +33,7 @@ Then prepare for a netboot:
   (This might be a good time to have been paranoid about checking the `sha256sum`s).
 - The router will come up at [192.168.1.1](http://192.168.1.1/).
 
-[mikrotik-hap-ac-lite]: https://mikrotik.com/product/RB952Ui-5ac2nD
+[mikrotik-hap-ac]: https://mikrotik.com/product/RB962UiGS-5HacT2HnT
 [openwrt-rb-common-procedures]: https://openwrt.org/toh/mikrotik/common
-[openwrt-hap-ac-lite-hwdata]: https://openwrt.org/toh/hwdata/mikrotik/mikrotik_rb952ui-5ac2nd_hap_ac_lite
+[openwrt-hap-ac-hwdata]: https://openwrt.org/toh/hwdata/mikrotik/mikrotik_rb962uigs-5hact2hnt_hap_ac
 [openwrt-download-18-06-4]: http://downloads.openwrt.org/releases/18.06.4/targets/ar71xx/mikrotik/
